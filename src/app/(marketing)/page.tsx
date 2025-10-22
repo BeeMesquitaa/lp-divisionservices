@@ -1,4 +1,3 @@
-import Blogs from "@/components/marketing/blogs";
 import Companies from "@/components/marketing/companies";
 import CTA from "@/components/marketing/cta";
 import Faq from "@/components/marketing/faq";
@@ -9,19 +8,18 @@ import Stats from "@/components/marketing/stats";
 import Testimonials from "@/components/marketing/testimonials";
 
 const HomePage = () => {
-    return (
-        <div className="w-full relative flex flex-col pt-16">
-            <Hero />
-            <Companies />
-            <HowItWorks />
-            <Features />
-            <Faq />
-            <Stats />
-            <Testimonials />
-            <Blogs />
-            <CTA />
-        </div>
-    );
+  return (
+    <div className="w-full relative flex flex-col pt-16">
+      <Hero />
+      <Companies />
+      <HowItWorks />
+      <Features />
+      <Faq />
+      <Stats />
+      <Testimonials />
+      <CTA />
+    </div>
+  );
 };
 
 export default HomePage;

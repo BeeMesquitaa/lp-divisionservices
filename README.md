@@ -1,71 +1,31 @@
-# Verve – Modern SaaS Landing Page
+# Division Services - Website Oficial
 
-<img src="https://github.com/user-attachments/assets/380ace4d-7bd0-40bc-9a32-d44770144532" alt="Verve Thumbnail">
+Repositório do website institucional da Division Services, empresa especializada em desenvolvimento de soluções digitais.
 
-## 🔥 Introduction
+## 🚀 Sobre o Projeto
 
-Verve is a modern SaaS landing page and platform template designed for developer tools, automation, and digital product teams. It features beautiful marketing pages, pricing, integrations, blog, and more—all with a clean, responsive, and animated UI.
+Website desenvolvido para apresentar os serviços, cases e diferenciais da Division Services. Focado em performance, responsividade e experiência do usuário.
 
-## 🔗 Live Preview
+## 💻 Stack Tecnológica
 
-Check out the live demo here: [Live Preview](https://verve-app.vercel.app/)
+- **Next.js 15** – Framework React para produção
+- **TypeScript** – JavaScript tipado para maior segurança
+- **TailwindCSS** – Estilização moderna e responsiva
+- **Shadcn UI** – Componentes reutilizáveis
+- **Framer Motion** – Animações suaves
+- **Lucide React** – Ícones modernos
 
-## 🎥 Watch the Preview Video on YouTube
+## 📂 Estrutura
 
-Take a look at the YouTube demo: [Watch the Video](https://youtu.be/t2DSW1Ncs8c)
+- `/app` – Páginas e rotas do Next.js
+- `/components` – Componentes React reutilizáveis
+- `/constants` – Dados e configurações estáticas
+- `/public` – Assets estáticos (imagens, ícones, etc)
 
-## 💻 Tech Stack
+## 🌐 Acesso
 
-- **Next.js 15** – React framework for production
-- **TailwindCSS** – Utility-first CSS framework
-- **Shadcn UI** – Reusable components
-- **Framer Motion** – Smooth animations
-- **React Hook Form** – Form validations
-- **TypeScript** – Type-safe code
-- **Number Flow** – Animated numbers
+Website em produção: [divisionservices.com.br](https://divisionservices.com.br)
 
-## 🛠️ Installation
+---
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/Shreyas-29/verve.git
-    ```
-
-2. Install dependencies:
-    ```bash
-    pnpm install
-    # or
-    yarn install
-    ```
-
-3. Run the development server:
-    ```bash
-    pnpm run dev
-    # or
-    yarn dev
-    ```
-
-4. Environment Variables
-Rename `.env.example` to `.env`:
-
-```env
-NEXT_PUBLIC_APP_NAME=Verve
-NEXT_PUBLIC_APP_URL="http://localhost:3000"
-```
-
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## 🚀 Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new) from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## ☕ Buy Me a Coffee
-
-If you enjoy using this project, consider supporting my work!  
-[Buy Me a Coffee ☕](https://buymeacoffee.com/shreyas29)
+**Division Services** – Transformando ideias em soluções digitais

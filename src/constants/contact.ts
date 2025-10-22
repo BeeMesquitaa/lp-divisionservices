@@ -1,19 +1,19 @@
 import { PhoneIcon, MailIcon, MapPinIcon } from "lucide-react";
 
 export const CONTACT_CARDS = [
-    {
-        title: "Phone Number",
-        value: "+1 (123) 456-7890",
-        icon: PhoneIcon
-    },
-    {
-        title: "Verve Address",
-        value: "Mumbai, India",
-        icon: MapPinIcon
-    },
-    {
-        title: "Email Address",
-        value: "support@verve.com",
-        icon: MailIcon
-    }
+  {
+    title: "WhatsApp",
+    value: "+55 (51) 98038-5019",
+    icon: PhoneIcon,
+  },
+  {
+    title: "Onde Atuamos",
+    value: "Atendimento online para todo Brasil",
+    icon: MapPinIcon,
+  },
+  {
+    title: "Email",
+    value: "contato@divisionservices.com.br",
+    icon: MailIcon,
+  },
 ] as const;

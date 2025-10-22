@@ -1,32 +1,32 @@
 export const FEATURES = [
-    {
-        title: "Responsive Break Points",
-        desc: "Adapt your layout seamlessly across all devices with flexible breakpoints.",
-        icon: "/icons/pie.svg",
-    },
-    {
-        title: "Easy to Customize",
-        desc: "Effortlessly tailor components to match your brand and workflow.",
-        icon: "/icons/computer.svg",
-    },
-    {
-        title: "Framer CMS",
-        desc: "Manage your content dynamically with powerful CMS integration.",
-        icon: "/icons/label.svg",
-    },
-    {
-        title: "Structured Layers",
-        desc: "Organize your project with clear, maintainable layer structures.",
-        icon: "/icons/crown.svg",
-    },
-    {
-        title: "Text Effects",
-        desc: "Enhance your typography with stunning and customizable text effects.",
-        icon: "/icons/cursor.svg",
-    },
-    {
-        title: "Time Animations",
-        desc: "Bring your UI to life with smooth and engaging time-based animations.",
-        icon: "/icons/clock.svg",
-    },
+  {
+    title: "Design Responsivo",
+    desc: "Interfaces que se adaptam perfeitamente a qualquer dispositivo, do mobile ao desktop.",
+    icon: "/icons/pie.svg",
+  },
+  {
+    title: "100% Customizável",
+    desc: "Desenvolvemos sob medida para atender às necessidades específicas do seu negócio.",
+    icon: "/icons/computer.svg",
+  },
+  {
+    title: "Código Limpo",
+    desc: "Arquitetura bem estruturada e documentada, facilitando manutenção e evolução futura.",
+    icon: "/icons/label.svg",
+  },
+  {
+    title: "Stack Moderna",
+    desc: "Trabalhamos com as tecnologias mais atuais e estáveis do mercado: React, Next.js, Node.js.",
+    icon: "/icons/crown.svg",
+  },
+  {
+    title: "Performance Otimizada",
+    desc: "Sites e sistemas rápidos, seguindo as melhores práticas de Core Web Vitals e SEO.",
+    icon: "/icons/cursor.svg",
+  },
+  {
+    title: "Entrega Ágil",
+    desc: "Desenvolvimento em sprints com acompanhamento semanal e entregas incrementais.",
+    icon: "/icons/clock.svg",
+  },
 ];

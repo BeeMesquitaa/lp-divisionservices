@@ -1,100 +1,117 @@
-export type Integration = {
-    name: string;
-    description: string;
-    icon: string;
-    category: "social" | "api" | "crm" | "all";
+export type Service = {
+  name: string;
+  description: string;
+  icon: string;
+  category: "desenvolvimento" | "recursos" | "suporte" | "all";
 };
 
 export const INTEGRATION_CATEGORIES = [
-    {
-        label: "All Integrations",
-        value: "all"
-    },
-    {
-        label: "Social Integrations",
-        value: "social"
-    },
-    {
-        label: "API Integrations",
-        value: "api"
-    },
-    {
-        label: "CRM Integrations",
-        value: "crm"
-    }
+  {
+    label: "Todos os Serviços",
+    value: "all",
+  },
+  {
+    label: "Desenvolvimento",
+    value: "desenvolvimento",
+  },
+  {
+    label: "Recursos Inclusos",
+    value: "recursos",
+  },
+  {
+    label: "Suporte e Manutenção",
+    value: "suporte",
+  },
 ] as const;
 
-export const INTEGRATIONS: Integration[] = [
-    {
-        name: "Slack",
-        description: "Connect and collaborate with your team in real-time through Slack integration.",
-        icon: "/icons/slack.svg",
-        category: "social"
-    },
-    {
-        name: "Snapchat",
-        description: "Automate your workflows by connecting Verve with thousands of apps through Snapchat.",
-        icon: "/icons/snapchat.svg",
-        category: "api"
-    },
-    {
-        name: "Reddit",
-        description: "Share and engage with the Reddit community directly from your Verve dashboard.",
-        icon: "/icons/reddit.svg",
-        category: "social"
-    },
-    {
-        name: "Discord",
-        description: "Build community and manage your Discord server with powerful integration tools.",
-        icon: "/icons/discord.svg",
-        category: "social"
-    },
-    {
-        name: "Layers",
-        description: "Manage your business presence and reviews across Layers platforms seamlessly.",
-        icon: "/icons/new.svg",
-        category: "crm"
-    },
-    {
-        name: "Figma",
-        description: "Design and prototype your projects with direct Figma integration support.",
-        icon: "/icons/figma.svg",
-        category: "api"
-    },
-    {
-        name: "Apple",
-        description: "Integrate your apps with Apple services and iOS ecosystem features.",
-        icon: "/icons/apple.svg",
-        category: "api"
-    },
-    {
-        name: "Facebook",
-        description: "Connect with your audience through comprehensive Facebook platform integration.",
-        icon: "/icons/facebook.svg",
-        category: "social"
-    },
-    {
-        name: "Threads",
-        description: "Showcase your design work and connect with the Threads creative community.",
-        icon: "/icons/threads.svg",
-        category: "social"
-    },
-    {
-        name: "Meta",
-        description: "Access Meta's suite of tools and platforms for enhanced social engagement.",
-        icon: "/icons/meta.svg",
-        category: "social"
-    },
-    {
-        name: "LinkedIn",
-        description: "Build your professional network and share updates via LinkedIn integration.",
-        icon: "/icons/linkedin.svg",
-        category: "social"
-    },
-    {
-        name: "Snapchat",
-        description: "Engage with younger audiences through Snapchat's creative tools and features.",
-        icon: "/icons/snapchat.svg",
-        category: "social"
-    }
-]; 
+export const INTEGRATIONS: Service[] = [
+  // DESENVOLVIMENTO
+  {
+    name: "Landing Pages",
+    description:
+      "Páginas de conversão otimizadas para capturar leads e aumentar suas vendas.",
+    icon: "/icons/cursor.svg",
+    category: "desenvolvimento",
+  },
+  {
+    name: "Sites Institucionais",
+    description:
+      "Site completo para sua empresa com design profissional e navegação intuitiva.",
+    icon: "/icons/computer.svg",
+    category: "desenvolvimento",
+  },
+  {
+    name: "E-commerce",
+    description:
+      "Loja virtual completa com carrinho, checkout e gestão de produtos.",
+    icon: "/icons/pie.svg",
+    category: "desenvolvimento",
+  },
+  {
+    name: "Sistemas Customizados",
+    description:
+      "Plataformas sob medida: CRMs, dashboards, portais e sistemas de gestão.",
+    icon: "/icons/crown.svg",
+    category: "desenvolvimento",
+  },
+
+  // RECURSOS
+  {
+    name: "Design Responsivo",
+    description:
+      "Todos os projetos funcionam perfeitamente em celular, tablet e desktop.",
+    icon: "/icons/new.svg",
+    category: "recursos",
+  },
+  {
+    name: "Painel Administrativo",
+    description:
+      "Gerencie conteúdo, produtos e usuários sem precisar de programador.",
+    icon: "/icons/label.svg",
+    category: "recursos",
+  },
+  {
+    name: "SEO Otimizado",
+    description:
+      "Estrutura preparada para aparecer bem no Google e outros buscadores.",
+    icon: "/icons/stars.svg",
+    category: "recursos",
+  },
+  {
+    name: "Integrações",
+    description:
+      "Conectamos com pagamentos, email marketing, CRMs e outras ferramentas.",
+    icon: "/icons/heart.svg",
+    category: "recursos",
+  },
+  {
+    name: "Performance Rápida",
+    description:
+      "Sites otimizados que carregam em segundos, melhorando a experiência do usuário.",
+    icon: "/icons/clock.svg",
+    category: "recursos",
+  },
+  {
+    name: "Segurança SSL",
+    description:
+      "Certificado de segurança incluído para proteger dados dos seus clientes.",
+    icon: "/icons/crown.svg",
+    category: "recursos",
+  },
+
+  // SUPORTE
+  {
+    name: "Suporte 30 Dias",
+    description:
+      "Todo projeto inclui um mês de suporte gratuito após o lançamento.",
+    icon: "/icons/heart.svg",
+    category: "suporte",
+  },
+  {
+    name: "Manutenção Mensal",
+    description:
+      "Pacotes de manutenção para manter seu site sempre atualizado e seguro.",
+    icon: "/icons/computer.svg",
+    category: "suporte",
+  },
+];
