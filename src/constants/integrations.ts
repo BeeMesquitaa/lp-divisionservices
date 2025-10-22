@@ -1,4 +1,4 @@
-export type Service = {
+export type Integration = {
   name: string;
   description: string;
   icon: string;
@@ -24,7 +24,7 @@ export const INTEGRATION_CATEGORIES = [
   },
 ] as const;
 
-export const INTEGRATIONS: Service[] = [
+export const INTEGRATIONS: Integration[] = [
   // DESENVOLVIMENTO
   {
     name: "Landing Pages",
